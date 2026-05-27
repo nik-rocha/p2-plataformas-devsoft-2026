@@ -1,0 +1,16 @@
+{
+  "openapi": "3.1.1",
+  "info": {
+    "title": "APIP2Minardi | v1",
+    "version": "1.0.0"
+  },
+  "servers": [
+    {
+      "url": "https://localhost:7093"
+    },
+    {
+      "url": "http://localhost:5019"
+    }
+  ],
+  "paths": { }
+}

@@ -1,0 +1,6 @@
+@APIP2Minardi_HostAddress = http://localhost:5019
+
+GET {{APIP2Minardi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
