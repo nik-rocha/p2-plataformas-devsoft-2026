@@ -35,6 +35,7 @@ namespace APIP2Minardi
 
             app.UseAuthorization();
 
+            app.MapGet("/", () => "Hello World!");
 
             app.Run();
         }

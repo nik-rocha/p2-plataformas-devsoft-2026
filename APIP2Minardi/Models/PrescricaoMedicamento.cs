@@ -1,4 +1,6 @@
-﻿namespace APIP2Minardi.Models
+﻿using System;
+
+namespace APIP2Minardi.Models
 {
     public class PrescricaoMedicamento
     {

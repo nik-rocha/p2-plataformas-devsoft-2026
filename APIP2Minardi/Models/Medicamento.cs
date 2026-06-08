@@ -1,4 +1,7 @@
-﻿namespace APIP2Minardi.Models
+﻿using System;
+using System.Collections.Generic;
+
+namespace APIP2Minardi.Models
 {
     public class Medicamento
     {

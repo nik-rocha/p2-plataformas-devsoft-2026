@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Aula\\source\\repos\\APIP2Minardi\\APIP2Minardi\\APIP2Minardi.csproj": {}
+    "E:\\Programação\\p2-plataformas-devsoft-2026\\APIP2Minardi\\APIP2Minardi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Aula\\source\\repos\\APIP2Minardi\\APIP2Minardi\\APIP2Minardi.csproj": {
+    "E:\\Programação\\p2-plataformas-devsoft-2026\\APIP2Minardi\\APIP2Minardi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Aula\\source\\repos\\APIP2Minardi\\APIP2Minardi\\APIP2Minardi.csproj",
+        "projectUniqueName": "E:\\Programação\\p2-plataformas-devsoft-2026\\APIP2Minardi\\APIP2Minardi.csproj",
         "projectName": "APIP2Minardi",
-        "projectPath": "C:\\Users\\Aula\\source\\repos\\APIP2Minardi\\APIP2Minardi\\APIP2Minardi.csproj",
-        "packagesPath": "C:\\Users\\Aula\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Aula\\source\\repos\\APIP2Minardi\\APIP2Minardi\\obj\\",
+        "projectPath": "E:\\Programação\\p2-plataformas-devsoft-2026\\APIP2Minardi\\APIP2Minardi.csproj",
+        "packagesPath": "C:\\Users\\Nicollas Rocha\\.nuget\\packages\\",
+        "outputPath": "E:\\Programação\\p2-plataformas-devsoft-2026\\APIP2Minardi\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Aula\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Nicollas Rocha\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -44,7 +40,7 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.100"
+        "SdkAnalysisLevel": "10.0.200"
       },
       "frameworks": {
         "net10.0": {
@@ -94,7 +90,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.AspNetCore": "(,10.0.32767]",
             "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",

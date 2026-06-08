@@ -12,5 +12,30 @@
       "url": "http://localhost:5019"
     }
   ],
-  "paths": { }
+  "paths": {
+    "/": {
+      "get": {
+        "tags": [
+          "APIP2Minardi"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "tags": [
+    {
+      "name": "APIP2Minardi"
+    }
+  ]
 }
