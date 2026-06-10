@@ -19,7 +19,7 @@ namespace APIP2Minardi.Migrations
 
             modelBuilder.Entity("APIP2Minardi.Models.Medicamento", b =>
                 {
-                    b.Property<int>("id")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 
@@ -35,14 +35,14 @@ namespace APIP2Minardi.Migrations
                     b.Property<string>("Via_Administracao")
                         .HasColumnType("TEXT");
 
-                    b.HasKey("id");
+                    b.HasKey("Id");
 
                     b.ToTable("Medicamentos");
                 });
 
             modelBuilder.Entity("APIP2Minardi.Models.Medico", b =>
                 {
-                    b.Property<int>("id")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 
@@ -59,14 +59,14 @@ namespace APIP2Minardi.Migrations
                     b.Property<string>("Telefone")
                         .HasColumnType("TEXT");
 
-                    b.HasKey("id");
+                    b.HasKey("Id");
 
                     b.ToTable("Medicos");
                 });
 
             modelBuilder.Entity("APIP2Minardi.Models.Paciente", b =>
                 {
-                    b.Property<int>("id")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 
@@ -85,7 +85,7 @@ namespace APIP2Minardi.Migrations
                     b.Property<int>("SETOR_id")
                         .HasColumnType("INTEGER");
 
-                    b.HasKey("id");
+                    b.HasKey("Id");
 
                     b.HasIndex("SETOR_id");
 
@@ -94,7 +94,7 @@ namespace APIP2Minardi.Migrations
 
             modelBuilder.Entity("APIP2Minardi.Models.PrescricaoGeral", b =>
                 {
-                    b.Property<int>("id")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 
@@ -110,7 +110,7 @@ namespace APIP2Minardi.Migrations
                     b.Property<int>("PACIENTE_id")
                         .HasColumnType("INTEGER");
 
-                    b.HasKey("id");
+                    b.HasKey("Id");
 
                     b.HasIndex("MEDICO_id");
 
@@ -121,7 +121,7 @@ namespace APIP2Minardi.Migrations
 
             modelBuilder.Entity("APIP2Minardi.Models.PrescricaoMedicamento", b =>
                 {
-                    b.Property<int>("id")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 
@@ -140,7 +140,7 @@ namespace APIP2Minardi.Migrations
                     b.Property<string>("Quantidade")
                         .HasColumnType("TEXT");
 
-                    b.HasKey("id");
+                    b.HasKey("Id");
 
                     b.HasIndex("MEDICAMENTO_id");
 
@@ -151,7 +151,7 @@ namespace APIP2Minardi.Migrations
 
             modelBuilder.Entity("APIP2Minardi.Models.Setor", b =>
                 {
-                    b.Property<int>("id")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 
@@ -164,7 +164,7 @@ namespace APIP2Minardi.Migrations
                     b.Property<string>("Nome")
                         .HasColumnType("TEXT");
 
-                    b.HasKey("id");
+                    b.HasKey("Id");
 
                     b.ToTable("Setores");
                 });

@@ -5,7 +5,7 @@ namespace APIP2Minardi.Models
 {
     public class Medicamento
     {
-        public int id { get; set; }
+        public int Id { get; set; }
         public string ?Nome { get; set; }
         public string ?Dosagem { get; set; }
         public string ?Via_Administracao { get; set; }
@@ -15,6 +15,12 @@ namespace APIP2Minardi.Models
 
         public Medicamento() { }
 
-
+        public Medicamento(string? nome, string? dosagem, string? via_administracao, int estoque)
+        {
+            Nome = nome;
+            Dosagem = dosagem;
+            Via_Administracao = via_administracao;
+            Estoque = estoque;
+        }
     }
 }

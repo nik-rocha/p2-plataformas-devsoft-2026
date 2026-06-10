@@ -19,12 +19,12 @@ namespace APIP2Minardi.Data
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<Setor>().HasKey(s => s.id);
-            modelBuilder.Entity<Paciente>().HasKey(p => p.id);
-            modelBuilder.Entity<Medico>().HasKey(p => p.id);
-            modelBuilder.Entity<Medicamento>().HasKey(p => p.id);
-            modelBuilder.Entity<PrescricaoGeral>().HasKey(p => p.id);
-            modelBuilder.Entity<PrescricaoMedicamento>().HasKey(p => p.id);
+            modelBuilder.Entity<Setor>().HasKey(s => s.Id);
+            modelBuilder.Entity<Paciente>().HasKey(p => p.Id);
+            modelBuilder.Entity<Medico>().HasKey(p => p.Id);
+            modelBuilder.Entity<Medicamento>().HasKey(p => p.Id);
+            modelBuilder.Entity<PrescricaoGeral>().HasKey(p => p.Id);
+            modelBuilder.Entity<PrescricaoMedicamento>().HasKey(p => p.Id);
 
             modelBuilder.Entity<Paciente>()
                 .HasOne(p => p.Setor)

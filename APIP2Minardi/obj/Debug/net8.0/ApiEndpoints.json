@@ -1,0 +1,190 @@
+[
+  {
+    "ContainingType": "APIP2Minardi.Endpoints.EPrescricaoMedicamento\u002B\u003C\u003Ec",
+    "Method": "\u003CRegistrarEndpointsPrescricoesMedicamentos\u003Eb__0_0",
+    "RelativePath": "prescricoes-medicamentos/",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[APIP2Minardi.Models.PrescricaoMedicamento, APIP2Minardi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "APIP2Minardi.Endpoints.EPrescricaoMedicamento\u002B\u003C\u003Ec",
+    "Method": "\u003CRegistrarEndpointsPrescricoesMedicamentos\u003Eb__0_1",
+    "RelativePath": "prescricoes-medicamentos/",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "precricaoMedicamento",
+        "Type": "APIP2Minardi.Models.PrescricaoMedicamento",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "APIP2Minardi.Models.PrescricaoMedicamento",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 201
+      }
+    ]
+  },
+  {
+    "ContainingType": "APIP2Minardi.Endpoints.EPrescricaoMedicamento\u002B\u003C\u003Ec",
+    "Method": "\u003CRegistrarEndpointsPrescricoesMedicamentos\u003Eb__0_2",
+    "RelativePath": "prescricoes-medicamentos/{Id}",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "prescricaoMedicamento",
+        "Type": "APIP2Minardi.Models.PrescricaoMedicamento",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "APIP2Minardi.Endpoints.EPrescricaoMedicamento\u002B\u003C\u003Ec",
+    "Method": "\u003CRegistrarEndpointsPrescricoesMedicamentos\u003Eb__0_3",
+    "RelativePath": "prescricoes-medicamentos/{Id}",
+    "HttpMethod": "DELETE",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "APIP2Minardi.Endpoints.EPSetores\u002B\u003C\u003Ec",
+    "Method": "\u003CRegistrarEndpointsSetores\u003Eb__0_0",
+    "RelativePath": "setores/",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "andar",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[APIP2Minardi.Models.Setor, APIP2Minardi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "APIP2Minardi.Endpoints.EPSetores\u002B\u003C\u003Ec",
+    "Method": "\u003CRegistrarEndpointsSetores\u003Eb__0_1",
+    "RelativePath": "setores/",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "setor",
+        "Type": "APIP2Minardi.Models.Setor",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "APIP2Minardi.Models.Setor",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 201
+      }
+    ]
+  },
+  {
+    "ContainingType": "APIP2Minardi.Endpoints.EPSetores\u002B\u003C\u003Ec",
+    "Method": "\u003CRegistrarEndpointsSetores\u003Eb__0_2",
+    "RelativePath": "setores/{Id}",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "setor",
+        "Type": "APIP2Minardi.Models.Setor",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "APIP2Minardi.Endpoints.EPSetores\u002B\u003C\u003Ec",
+    "Method": "\u003CRegistrarEndpointsSetores\u003Eb__0_3",
+    "RelativePath": "setores/{Id}",
+    "HttpMethod": "DELETE",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
