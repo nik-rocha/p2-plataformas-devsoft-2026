@@ -1,5 +1,377 @@
 [
   {
+    "ContainingType": "APIP2Minardi.Endpoints.EPMedicamento\u002B\u003C\u003Ec",
+    "Method": "\u003CRegistrarEndpointsMedicamentos\u003Eb__0_0",
+    "RelativePath": "medicamentos/",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nome",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[APIP2Minardi.Models.Medicamento, APIP2Minardi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "APIP2Minardi.Endpoints.EPMedicamento\u002B\u003C\u003Ec",
+    "Method": "\u003CRegistrarEndpointsMedicamentos\u003Eb__0_1",
+    "RelativePath": "medicamentos/",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "medicamento",
+        "Type": "APIP2Minardi.Models.Medicamento",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "APIP2Minardi.Endpoints.EPMedicamento\u002B\u003C\u003Ec",
+    "Method": "\u003CRegistrarEndpointsMedicamentos\u003Eb__0_2",
+    "RelativePath": "medicamentos/{Id}",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "medicamento",
+        "Type": "APIP2Minardi.Models.Medicamento",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "APIP2Minardi.Endpoints.EPMedicamento\u002B\u003C\u003Ec",
+    "Method": "\u003CRegistrarEndpointsMedicamentos\u003Eb__0_3",
+    "RelativePath": "medicamentos/{Id}",
+    "HttpMethod": "DELETE",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "APIP2Minardi.Endpoints.EPMedico\u002B\u003C\u003Ec",
+    "Method": "\u003CRegistrarEndpointsMedicos\u003Eb__0_0",
+    "RelativePath": "medicos/",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nome",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[APIP2Minardi.Models.Medico, APIP2Minardi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "APIP2Minardi.Endpoints.EPMedico\u002B\u003C\u003Ec",
+    "Method": "\u003CRegistrarEndpointsMedicos\u003Eb__0_1",
+    "RelativePath": "medicos/",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "medico",
+        "Type": "APIP2Minardi.Models.Medico",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "APIP2Minardi.Endpoints.EPMedico\u002B\u003C\u003Ec",
+    "Method": "\u003CRegistrarEndpointsMedicos\u003Eb__0_2",
+    "RelativePath": "medicos/{Id}",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "medico",
+        "Type": "APIP2Minardi.Models.Medico",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "APIP2Minardi.Endpoints.EPMedico\u002B\u003C\u003Ec",
+    "Method": "\u003CRegistrarEndpointsMedicos\u003Eb__0_3",
+    "RelativePath": "medicos/{Id}",
+    "HttpMethod": "DELETE",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "APIP2Minardi.Endpoints.EPPaciente\u002B\u003C\u003Ec",
+    "Method": "\u003CRegistrarEndpointsPacientes\u003Eb__0_0",
+    "RelativePath": "pacientes/",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[APIP2Minardi.Models.Paciente, APIP2Minardi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "APIP2Minardi.Endpoints.EPPaciente\u002B\u003C\u003Ec",
+    "Method": "\u003CRegistrarEndpointsPacientes\u003Eb__0_1",
+    "RelativePath": "pacientes/",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "paciente",
+        "Type": "APIP2Minardi.Models.Paciente",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "APIP2Minardi.Models.Paciente",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 201
+      }
+    ]
+  },
+  {
+    "ContainingType": "APIP2Minardi.Endpoints.EPPaciente\u002B\u003C\u003Ec",
+    "Method": "\u003CRegistrarEndpointsPacientes\u003Eb__0_2",
+    "RelativePath": "pacientes/{Id}",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "paciente",
+        "Type": "APIP2Minardi.Models.Paciente",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "APIP2Minardi.Endpoints.EPPaciente\u002B\u003C\u003Ec",
+    "Method": "\u003CRegistrarEndpointsPacientes\u003Eb__0_3",
+    "RelativePath": "pacientes/{Id}",
+    "HttpMethod": "DELETE",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "APIP2Minardi.Endpoints.EPrescricaoGeral\u002B\u003C\u003Ec",
+    "Method": "\u003CRegistrarEndpointsPrescricoesGerais\u003Eb__0_0",
+    "RelativePath": "prescricoes-gerais/",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[APIP2Minardi.Models.PrescricaoGeral, APIP2Minardi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "APIP2Minardi.Endpoints.EPrescricaoGeral\u002B\u003C\u003Ec",
+    "Method": "\u003CRegistrarEndpointsPrescricoesGerais\u003Eb__0_1",
+    "RelativePath": "prescricoes-gerais/",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "precricaoGeral",
+        "Type": "APIP2Minardi.Models.PrescricaoGeral",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "APIP2Minardi.Models.PrescricaoGeral",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 201
+      }
+    ]
+  },
+  {
+    "ContainingType": "APIP2Minardi.Endpoints.EPrescricaoGeral\u002B\u003C\u003Ec",
+    "Method": "\u003CRegistrarEndpointsPrescricoesGerais\u003Eb__0_2",
+    "RelativePath": "prescricoes-gerais/{Id}",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "prescricaoGeral",
+        "Type": "APIP2Minardi.Models.PrescricaoGeral",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "APIP2Minardi.Endpoints.EPrescricaoGeral\u002B\u003C\u003Ec",
+    "Method": "\u003CRegistrarEndpointsPrescricoesGerais\u003Eb__0_3",
+    "RelativePath": "prescricoes-gerais/{Id}",
+    "HttpMethod": "DELETE",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "APIP2Minardi.Endpoints.EPrescricaoMedicamento\u002B\u003C\u003Ec",
     "Method": "\u003CRegistrarEndpointsPrescricoesMedicamentos\u003Eb__0_0",
     "RelativePath": "prescricoes-medicamentos/",
@@ -130,11 +502,9 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "APIP2Minardi.Models.Setor",
-        "MediaTypes": [
-          "application/json"
-        ],
-        "StatusCode": 201
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
       }
     ]
   },

@@ -30,13 +30,29 @@ namespace APIP2Minardi.Endpoints
 
             rotaSetores.MapPost("/", (AppDbContext dbContext, Setor setor) =>
             {
-                var novoSetor = dbContext.Setores.Add(setor);
-                dbContext.SaveChanges();
-                return TypedResults.Created($"/setores/{setor.Id}", setor);
+                if (string.IsNullOrWhiteSpace(setor.Nome))
+                {
+                    return Results.BadRequest("Não é possível adicionar um setor sem nome.");
+                }
+
+                try
+                {
+                    var novoSetor = dbContext.Setores.Add(setor);
+                    dbContext.SaveChanges();
+                    return TypedResults.Created($"/setores/{setor.Id}", setor);
+                } catch (Exception ex)
+                {
+                    return Results.Problem($"Ocorreu um erro ao adicionar o setor: {ex.Message}");
+                }
             });
 
             rotaSetores.MapPut("/{Id}", (AppDbContext dbContext, [FromRoute] int Id, Setor setor) =>
             {
+                if (string.IsNullOrWhiteSpace(setor.Nome))
+                {
+                    return Results.BadRequest("Não é possível alterar para um nome vazio.");
+                }
+
                 Setor? setorEncontrado = dbContext.Setores.Find(Id);
 
                 if (setorEncontrado is null)
@@ -44,10 +60,16 @@ namespace APIP2Minardi.Endpoints
                     return Results.NotFound();
                 }
 
-                setor.Id = Id;
-                dbContext.Entry(setorEncontrado).CurrentValues.SetValues(setor);
-                dbContext.SaveChanges();
-                return TypedResults.NoContent();
+                try
+                {
+                    setor.Id = Id;
+                    dbContext.Entry(setorEncontrado).CurrentValues.SetValues(setor);
+                    dbContext.SaveChanges();
+                    return TypedResults.NoContent();
+                } catch (Exception ex)
+                {
+                    return Results.Problem($"Ocorreu um erro ao atualizar o setor: {ex.Message}");
+                }
             });
 
             rotaSetores.MapDelete("/{Id}", (AppDbContext dbContext, [FromRoute] int Id) =>

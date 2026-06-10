@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("APIP2Minardi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+31116d40f8ad0ee70746094afdb7b8916fe67257")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8266c5d7dc7f6f587518058321cd1b66551a67dd")]
 [assembly: System.Reflection.AssemblyProductAttribute("APIP2Minardi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("APIP2Minardi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

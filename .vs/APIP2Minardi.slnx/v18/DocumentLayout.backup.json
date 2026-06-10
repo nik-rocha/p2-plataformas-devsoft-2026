@@ -3,32 +3,48 @@
   "WorkspaceRootPath": "E:\\Programa\u00E7\u00E3o\\p2-plataformas-devsoft-2026\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D3C834E3-C960-20B0-558A-F3B064A03428}|APIP2Minardi\\APIP2Minardi.csproj|e:\\programa\u00E7\u00E3o\\p2-plataformas-devsoft-2026\\apip2minardi\\endpoints\\epprescricaomedicamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D3C834E3-C960-20B0-558A-F3B064A03428}|APIP2Minardi\\APIP2Minardi.csproj|solutionrelative:apip2minardi\\endpoints\\epprescricaomedicamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D3C834E3-C960-20B0-558A-F3B064A03428}|APIP2Minardi\\APIP2Minardi.csproj|e:\\programa\u00E7\u00E3o\\p2-plataformas-devsoft-2026\\apip2minardi\\models\\prescricaogeral.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D3C834E3-C960-20B0-558A-F3B064A03428}|APIP2Minardi\\APIP2Minardi.csproj|solutionrelative:apip2minardi\\models\\prescricaogeral.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D3C834E3-C960-20B0-558A-F3B064A03428}|APIP2Minardi\\APIP2Minardi.csproj|e:\\programa\u00E7\u00E3o\\p2-plataformas-devsoft-2026\\apip2minardi\\models\\paciente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D3C834E3-C960-20B0-558A-F3B064A03428}|APIP2Minardi\\APIP2Minardi.csproj|solutionrelative:apip2minardi\\models\\paciente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D3C834E3-C960-20B0-558A-F3B064A03428}|APIP2Minardi\\APIP2Minardi.csproj|e:\\programa\u00E7\u00E3o\\p2-plataformas-devsoft-2026\\apip2minardi\\models\\prescricaomedicamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D3C834E3-C960-20B0-558A-F3B064A03428}|APIP2Minardi\\APIP2Minardi.csproj|solutionrelative:apip2minardi\\models\\prescricaomedicamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D3C834E3-C960-20B0-558A-F3B064A03428}|APIP2Minardi\\APIP2Minardi.csproj|e:\\programa\u00E7\u00E3o\\p2-plataformas-devsoft-2026\\apip2minardi\\endpoints\\epsetores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3C834E3-C960-20B0-558A-F3B064A03428}|APIP2Minardi\\APIP2Minardi.csproj|solutionrelative:apip2minardi\\endpoints\\epsetores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D3C834E3-C960-20B0-558A-F3B064A03428}|APIP2Minardi\\APIP2Minardi.csproj|e:\\programa\u00E7\u00E3o\\p2-plataformas-devsoft-2026\\apip2minardi\\models\\setor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D3C834E3-C960-20B0-558A-F3B064A03428}|APIP2Minardi\\APIP2Minardi.csproj|solutionrelative:apip2minardi\\models\\setor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D3C834E3-C960-20B0-558A-F3B064A03428}|APIP2Minardi\\APIP2Minardi.csproj|e:\\programa\u00E7\u00E3o\\p2-plataformas-devsoft-2026\\apip2minardi\\models\\medico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D3C834E3-C960-20B0-558A-F3B064A03428}|APIP2Minardi\\APIP2Minardi.csproj|solutionrelative:apip2minardi\\models\\medico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D3C834E3-C960-20B0-558A-F3B064A03428}|APIP2Minardi\\APIP2Minardi.csproj|e:\\programa\u00E7\u00E3o\\p2-plataformas-devsoft-2026\\apip2minardi\\endpoints\\epmedicamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3C834E3-C960-20B0-558A-F3B064A03428}|APIP2Minardi\\APIP2Minardi.csproj|solutionrelative:apip2minardi\\endpoints\\epmedicamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3C834E3-C960-20B0-558A-F3B064A03428}|APIP2Minardi\\APIP2Minardi.csproj|e:\\programa\u00E7\u00E3o\\p2-plataformas-devsoft-2026\\apip2minardi\\endpoints\\epmedico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3C834E3-C960-20B0-558A-F3B064A03428}|APIP2Minardi\\APIP2Minardi.csproj|solutionrelative:apip2minardi\\endpoints\\epmedico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D3C834E3-C960-20B0-558A-F3B064A03428}|APIP2Minardi\\APIP2Minardi.csproj|e:\\programa\u00E7\u00E3o\\p2-plataformas-devsoft-2026\\apip2minardi\\models\\medicamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D3C834E3-C960-20B0-558A-F3B064A03428}|APIP2Minardi\\APIP2Minardi.csproj|solutionrelative:apip2minardi\\models\\medicamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3C834E3-C960-20B0-558A-F3B064A03428}|APIP2Minardi\\APIP2Minardi.csproj|e:\\programa\u00E7\u00E3o\\p2-plataformas-devsoft-2026\\apip2minardi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3C834E3-C960-20B0-558A-F3B064A03428}|APIP2Minardi\\APIP2Minardi.csproj|solutionrelative:apip2minardi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3C834E3-C960-20B0-558A-F3B064A03428}|APIP2Minardi\\APIP2Minardi.csproj|e:\\programa\u00E7\u00E3o\\p2-plataformas-devsoft-2026\\apip2minardi\\models\\medico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3C834E3-C960-20B0-558A-F3B064A03428}|APIP2Minardi\\APIP2Minardi.csproj|solutionrelative:apip2minardi\\models\\medico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3C834E3-C960-20B0-558A-F3B064A03428}|APIP2Minardi\\APIP2Minardi.csproj|e:\\programa\u00E7\u00E3o\\p2-plataformas-devsoft-2026\\apip2minardi\\endpoints\\epprescricaogeral.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3C834E3-C960-20B0-558A-F3B064A03428}|APIP2Minardi\\APIP2Minardi.csproj|solutionrelative:apip2minardi\\endpoints\\epprescricaogeral.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3C834E3-C960-20B0-558A-F3B064A03428}|APIP2Minardi\\APIP2Minardi.csproj|e:\\programa\u00E7\u00E3o\\p2-plataformas-devsoft-2026\\apip2minardi\\endpoints\\eppaciente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3C834E3-C960-20B0-558A-F3B064A03428}|APIP2Minardi\\APIP2Minardi.csproj|solutionrelative:apip2minardi\\endpoints\\eppaciente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3C834E3-C960-20B0-558A-F3B064A03428}|APIP2Minardi\\APIP2Minardi.csproj|e:\\programa\u00E7\u00E3o\\p2-plataformas-devsoft-2026\\apip2minardi\\models\\paciente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3C834E3-C960-20B0-558A-F3B064A03428}|APIP2Minardi\\APIP2Minardi.csproj|solutionrelative:apip2minardi\\models\\paciente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3C834E3-C960-20B0-558A-F3B064A03428}|APIP2Minardi\\APIP2Minardi.csproj|e:\\programa\u00E7\u00E3o\\p2-plataformas-devsoft-2026\\apip2minardi\\endpoints\\epprescricaomedicamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3C834E3-C960-20B0-558A-F3B064A03428}|APIP2Minardi\\APIP2Minardi.csproj|solutionrelative:apip2minardi\\endpoints\\epprescricaomedicamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,76 +54,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PrescricaoGeral.cs",
-              "DocumentMoniker": "E:\\Programa\u00E7\u00E3o\\p2-plataformas-devsoft-2026\\APIP2Minardi\\Models\\PrescricaoGeral.cs",
-              "RelativeDocumentMoniker": "APIP2Minardi\\Models\\PrescricaoGeral.cs",
-              "ToolTip": "E:\\Programa\u00E7\u00E3o\\p2-plataformas-devsoft-2026\\APIP2Minardi\\Models\\PrescricaoGeral.cs",
-              "RelativeToolTip": "APIP2Minardi\\Models\\PrescricaoGeral.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAArAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "EPMedicamento.cs",
+              "DocumentMoniker": "E:\\Programa\u00E7\u00E3o\\p2-plataformas-devsoft-2026\\APIP2Minardi\\Endpoints\\EPMedicamento.cs",
+              "RelativeDocumentMoniker": "APIP2Minardi\\Endpoints\\EPMedicamento.cs",
+              "ToolTip": "E:\\Programa\u00E7\u00E3o\\p2-plataformas-devsoft-2026\\APIP2Minardi\\Endpoints\\EPMedicamento.cs*",
+              "RelativeToolTip": "APIP2Minardi\\Endpoints\\EPMedicamento.cs*",
+              "ViewState": "AgIAACYAAAAAAAAAAAAAADIAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-09T22:59:55.316Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "PrescricaoMedicamento.cs",
-              "DocumentMoniker": "E:\\Programa\u00E7\u00E3o\\p2-plataformas-devsoft-2026\\APIP2Minardi\\Models\\PrescricaoMedicamento.cs",
-              "RelativeDocumentMoniker": "APIP2Minardi\\Models\\PrescricaoMedicamento.cs",
-              "ToolTip": "E:\\Programa\u00E7\u00E3o\\p2-plataformas-devsoft-2026\\APIP2Minardi\\Models\\PrescricaoMedicamento.cs",
-              "RelativeToolTip": "APIP2Minardi\\Models\\PrescricaoMedicamento.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-09T22:59:51.691Z",
+              "WhenOpened": "2026-06-10T00:37:05.64Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Setor.cs",
-              "DocumentMoniker": "E:\\Programa\u00E7\u00E3o\\p2-plataformas-devsoft-2026\\APIP2Minardi\\Models\\Setor.cs",
-              "RelativeDocumentMoniker": "APIP2Minardi\\Models\\Setor.cs",
-              "ToolTip": "E:\\Programa\u00E7\u00E3o\\p2-plataformas-devsoft-2026\\APIP2Minardi\\Models\\Setor.cs",
-              "RelativeToolTip": "APIP2Minardi\\Models\\Setor.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-09T22:59:50.825Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Paciente.cs",
-              "DocumentMoniker": "E:\\Programa\u00E7\u00E3o\\p2-plataformas-devsoft-2026\\APIP2Minardi\\Models\\Paciente.cs",
-              "RelativeDocumentMoniker": "APIP2Minardi\\Models\\Paciente.cs",
-              "ToolTip": "E:\\Programa\u00E7\u00E3o\\p2-plataformas-devsoft-2026\\APIP2Minardi\\Models\\Paciente.cs",
-              "RelativeToolTip": "APIP2Minardi\\Models\\Paciente.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-09T22:59:37.228Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Medico.cs",
-              "DocumentMoniker": "E:\\Programa\u00E7\u00E3o\\p2-plataformas-devsoft-2026\\APIP2Minardi\\Models\\Medico.cs",
-              "RelativeDocumentMoniker": "APIP2Minardi\\Models\\Medico.cs",
-              "ToolTip": "E:\\Programa\u00E7\u00E3o\\p2-plataformas-devsoft-2026\\APIP2Minardi\\Models\\Medico.cs",
-              "RelativeToolTip": "APIP2Minardi\\Models\\Medico.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-09T22:59:34.223Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "Medicamento.cs",
               "DocumentMoniker": "E:\\Programa\u00E7\u00E3o\\p2-plataformas-devsoft-2026\\APIP2Minardi\\Models\\Medicamento.cs",
               "RelativeDocumentMoniker": "APIP2Minardi\\Models\\Medicamento.cs",
@@ -115,18 +79,122 @@
               "RelativeToolTip": "APIP2Minardi\\Models\\Medicamento.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-09T22:59:31.34Z",
+              "WhenOpened": "2026-06-10T00:36:33.512Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EPPrescricaoGeral.cs",
+              "DocumentMoniker": "E:\\Programa\u00E7\u00E3o\\p2-plataformas-devsoft-2026\\APIP2Minardi\\Endpoints\\EPPrescricaoGeral.cs",
+              "RelativeDocumentMoniker": "APIP2Minardi\\Endpoints\\EPPrescricaoGeral.cs",
+              "ToolTip": "E:\\Programa\u00E7\u00E3o\\p2-plataformas-devsoft-2026\\APIP2Minardi\\Endpoints\\EPPrescricaoGeral.cs",
+              "RelativeToolTip": "APIP2Minardi\\Endpoints\\EPPrescricaoGeral.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T00:26:54.945Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EPMedico.cs",
+              "DocumentMoniker": "E:\\Programa\u00E7\u00E3o\\p2-plataformas-devsoft-2026\\APIP2Minardi\\Endpoints\\EPMedico.cs",
+              "RelativeDocumentMoniker": "APIP2Minardi\\Endpoints\\EPMedico.cs",
+              "ToolTip": "E:\\Programa\u00E7\u00E3o\\p2-plataformas-devsoft-2026\\APIP2Minardi\\Endpoints\\EPMedico.cs*",
+              "RelativeToolTip": "APIP2Minardi\\Endpoints\\EPMedico.cs*",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwCwAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T00:26:31.853Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "EPSetores.cs",
+              "DocumentMoniker": "E:\\Programa\u00E7\u00E3o\\p2-plataformas-devsoft-2026\\APIP2Minardi\\Endpoints\\EPSetores.cs",
+              "RelativeDocumentMoniker": "APIP2Minardi\\Endpoints\\EPSetores.cs",
+              "ToolTip": "E:\\Programa\u00E7\u00E3o\\p2-plataformas-devsoft-2026\\APIP2Minardi\\Endpoints\\EPSetores.cs*",
+              "RelativeToolTip": "APIP2Minardi\\Endpoints\\EPSetores.cs*",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwC0AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T00:25:38.351Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Setor.cs",
+              "DocumentMoniker": "E:\\Programa\u00E7\u00E3o\\p2-plataformas-devsoft-2026\\APIP2Minardi\\Models\\Setor.cs",
+              "RelativeDocumentMoniker": "APIP2Minardi\\Models\\Setor.cs",
+              "ToolTip": "E:\\Programa\u00E7\u00E3o\\p2-plataformas-devsoft-2026\\APIP2Minardi\\Models\\Setor.cs",
+              "RelativeToolTip": "APIP2Minardi\\Models\\Setor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T00:25:35.716Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Medico.cs",
+              "DocumentMoniker": "E:\\Programa\u00E7\u00E3o\\p2-plataformas-devsoft-2026\\APIP2Minardi\\Models\\Medico.cs",
+              "RelativeDocumentMoniker": "APIP2Minardi\\Models\\Medico.cs",
+              "ToolTip": "E:\\Programa\u00E7\u00E3o\\p2-plataformas-devsoft-2026\\APIP2Minardi\\Models\\Medico.cs",
+              "RelativeToolTip": "APIP2Minardi\\Models\\Medico.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T00:25:18.115Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EPPaciente.cs",
+              "DocumentMoniker": "E:\\Programa\u00E7\u00E3o\\p2-plataformas-devsoft-2026\\APIP2Minardi\\Endpoints\\EPPaciente.cs",
+              "RelativeDocumentMoniker": "APIP2Minardi\\Endpoints\\EPPaciente.cs",
+              "ToolTip": "E:\\Programa\u00E7\u00E3o\\p2-plataformas-devsoft-2026\\APIP2Minardi\\Endpoints\\EPPaciente.cs",
+              "RelativeToolTip": "APIP2Minardi\\Endpoints\\EPPaciente.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T00:15:13.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Paciente.cs",
+              "DocumentMoniker": "E:\\Programa\u00E7\u00E3o\\p2-plataformas-devsoft-2026\\APIP2Minardi\\Models\\Paciente.cs",
+              "RelativeDocumentMoniker": "APIP2Minardi\\Models\\Paciente.cs",
+              "ToolTip": "E:\\Programa\u00E7\u00E3o\\p2-plataformas-devsoft-2026\\APIP2Minardi\\Models\\Paciente.cs",
+              "RelativeToolTip": "APIP2Minardi\\Models\\Paciente.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T00:11:45.315Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Programa\u00E7\u00E3o\\p2-plataformas-devsoft-2026\\APIP2Minardi\\Program.cs",
+              "RelativeDocumentMoniker": "APIP2Minardi\\Program.cs",
+              "ToolTip": "E:\\Programa\u00E7\u00E3o\\p2-plataformas-devsoft-2026\\APIP2Minardi\\Program.cs",
+              "RelativeToolTip": "APIP2Minardi\\Program.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwCsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T00:10:22.178Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "EPPrescricaoMedicamento.cs",
               "DocumentMoniker": "E:\\Programa\u00E7\u00E3o\\p2-plataformas-devsoft-2026\\APIP2Minardi\\Endpoints\\EPPrescricaoMedicamento.cs",
               "RelativeDocumentMoniker": "APIP2Minardi\\Endpoints\\EPPrescricaoMedicamento.cs",
-              "ToolTip": "E:\\Programa\u00E7\u00E3o\\p2-plataformas-devsoft-2026\\APIP2Minardi\\Endpoints\\EPPrescricaoMedicamento.cs*",
-              "RelativeToolTip": "APIP2Minardi\\Endpoints\\EPPrescricaoMedicamento.cs*",
-              "ViewState": "AgIAACMAAAAAAAAAAAAAAD8AAAAlAAAAAAAAAA==",
+              "ToolTip": "E:\\Programa\u00E7\u00E3o\\p2-plataformas-devsoft-2026\\APIP2Minardi\\Endpoints\\EPPrescricaoMedicamento.cs",
+              "RelativeToolTip": "APIP2Minardi\\Endpoints\\EPPrescricaoMedicamento.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAAADkAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-09T22:37:50.059Z",
               "EditorCaption": ""

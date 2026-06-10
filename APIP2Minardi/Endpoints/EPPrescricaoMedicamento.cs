@@ -29,10 +29,16 @@ namespace APIP2Minardi.Endpoints
 
             rotaPrescricaoMedicamento.MapPost("/", (AppDbContext dbContext, PrescricaoMedicamento precricaoMedicamento) =>
             {
-                dbContext.PrescricoesMedicamentos.Add(precricaoMedicamento);
-                dbContext.SaveChanges();
+                try
+                {
+                    dbContext.PrescricoesMedicamentos.Add(precricaoMedicamento);
+                    dbContext.SaveChanges();
 
-                return TypedResults.Created($"/prescricoes-medicamentos/{precricaoMedicamento.Id}", precricaoMedicamento);
+                    return TypedResults.Created($"/prescricoes-medicamentos/{precricaoMedicamento.Id}", precricaoMedicamento);
+                } catch (Exception ex)
+                {
+                    return Results.Problem($"Ocorreu um erro ao adicionar a prescrição do medicamento: {ex.Message}");
+                }
             });
 
             rotaPrescricaoMedicamento.MapPut("/{Id}", (AppDbContext dbContext, [FromRoute] int Id, PrescricaoMedicamento prescricaoMedicamento) =>
@@ -44,15 +50,21 @@ namespace APIP2Minardi.Endpoints
                     return Results.NotFound();
                 }
 
-                prescricaoMedicamento.Id = Id;
+                try
+                {
+                    prescricaoMedicamento.Id = Id;
 
-                dbContext.Entry(encontrada)
-                    .CurrentValues
-                    .SetValues(prescricaoMedicamento);
+                    dbContext.Entry(encontrada)
+                        .CurrentValues
+                        .SetValues(prescricaoMedicamento);
 
-                dbContext.SaveChanges();
+                    dbContext.SaveChanges();
 
-                return TypedResults.NoContent();
+                    return TypedResults.NoContent();
+                } catch (Exception ex)
+                {
+                    return Results.Problem($"Ocorreu um erro ao atualizar a prescrição do medicamento: {ex.Message}");
+                }
             });
 
             rotaPrescricaoMedicamento.MapDelete("/{Id}", (AppDbContext dbContext, [FromRoute] int Id) =>

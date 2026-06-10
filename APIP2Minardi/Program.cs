@@ -32,6 +32,10 @@ namespace APIP2Minardi
 
             app.RegistrarEndpointsSetores();
             app.RegistrarEndpointsPrescricoesMedicamentos();
+            app.RegistrarEndpointsPrescricoesGerais();
+            app.RegistrarEndpointsPacientes();
+            app.RegistrarEndpointsMedicos();
+            app.RegistrarEndpointsMedicamentos();
 
             app.Run();
         }
