@@ -14,7 +14,7 @@ namespace APIP2Minardi.Endpoints
     {
         public static void RegistrarEndpointsSetores(this IEndpointRouteBuilder rotas)
         {
-            RouteGroupBuilder rotaSetores = rotas.MapGroup("/setores");
+            RouteGroupBuilder rotaSetores = rotas.MapGroup("/setores").WithTags("Setores");
 
             rotaSetores.MapGet("/", (AppDbContext dbContext, [FromQuery] string? andar) =>
             {

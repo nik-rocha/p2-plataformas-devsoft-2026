@@ -21,6 +21,9 @@
         ],
         "StatusCode": 200
       }
+    ],
+    "Tags": [
+      "Medicamentos"
     ]
   },
   {
@@ -43,6 +46,9 @@
         "MediaTypes": [],
         "StatusCode": 200
       }
+    ],
+    "Tags": [
+      "Medicamentos"
     ]
   },
   {
@@ -70,6 +76,9 @@
         "MediaTypes": [],
         "StatusCode": 200
       }
+    ],
+    "Tags": [
+      "Medicamentos"
     ]
   },
   {
@@ -92,6 +101,9 @@
         "MediaTypes": [],
         "StatusCode": 200
       }
+    ],
+    "Tags": [
+      "Medicamentos"
     ]
   },
   {
@@ -116,6 +128,9 @@
         ],
         "StatusCode": 200
       }
+    ],
+    "Tags": [
+      "M\u00E9dicos"
     ]
   },
   {
@@ -138,6 +153,9 @@
         "MediaTypes": [],
         "StatusCode": 200
       }
+    ],
+    "Tags": [
+      "M\u00E9dicos"
     ]
   },
   {
@@ -165,6 +183,9 @@
         "MediaTypes": [],
         "StatusCode": 200
       }
+    ],
+    "Tags": [
+      "M\u00E9dicos"
     ]
   },
   {
@@ -187,6 +208,9 @@
         "MediaTypes": [],
         "StatusCode": 200
       }
+    ],
+    "Tags": [
+      "M\u00E9dicos"
     ]
   },
   {
@@ -205,6 +229,9 @@
         ],
         "StatusCode": 200
       }
+    ],
+    "Tags": [
+      "Pacientes"
     ]
   },
   {
@@ -223,12 +250,13 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "APIP2Minardi.Models.Paciente",
-        "MediaTypes": [
-          "application/json"
-        ],
-        "StatusCode": 201
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
       }
+    ],
+    "Tags": [
+      "Pacientes"
     ]
   },
   {
@@ -256,6 +284,9 @@
         "MediaTypes": [],
         "StatusCode": 200
       }
+    ],
+    "Tags": [
+      "Pacientes"
     ]
   },
   {
@@ -278,6 +309,9 @@
         "MediaTypes": [],
         "StatusCode": 200
       }
+    ],
+    "Tags": [
+      "Pacientes"
     ]
   },
   {
@@ -296,6 +330,9 @@
         ],
         "StatusCode": 200
       }
+    ],
+    "Tags": [
+      "Precri\u00E7\u00F5es Gerais"
     ]
   },
   {
@@ -314,12 +351,13 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "APIP2Minardi.Models.PrescricaoGeral",
-        "MediaTypes": [
-          "application/json"
-        ],
-        "StatusCode": 201
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
       }
+    ],
+    "Tags": [
+      "Precri\u00E7\u00F5es Gerais"
     ]
   },
   {
@@ -347,6 +385,9 @@
         "MediaTypes": [],
         "StatusCode": 200
       }
+    ],
+    "Tags": [
+      "Precri\u00E7\u00F5es Gerais"
     ]
   },
   {
@@ -369,6 +410,9 @@
         "MediaTypes": [],
         "StatusCode": 200
       }
+    ],
+    "Tags": [
+      "Precri\u00E7\u00F5es Gerais"
     ]
   },
   {
@@ -387,6 +431,9 @@
         ],
         "StatusCode": 200
       }
+    ],
+    "Tags": [
+      "Precri\u00E7\u00F5es dos Medicamentos"
     ]
   },
   {
@@ -405,12 +452,13 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "APIP2Minardi.Models.PrescricaoMedicamento",
-        "MediaTypes": [
-          "application/json"
-        ],
-        "StatusCode": 201
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
       }
+    ],
+    "Tags": [
+      "Precri\u00E7\u00F5es dos Medicamentos"
     ]
   },
   {
@@ -438,6 +486,9 @@
         "MediaTypes": [],
         "StatusCode": 200
       }
+    ],
+    "Tags": [
+      "Precri\u00E7\u00F5es dos Medicamentos"
     ]
   },
   {
@@ -460,6 +511,9 @@
         "MediaTypes": [],
         "StatusCode": 200
       }
+    ],
+    "Tags": [
+      "Precri\u00E7\u00F5es dos Medicamentos"
     ]
   },
   {
@@ -484,6 +538,9 @@
         ],
         "StatusCode": 200
       }
+    ],
+    "Tags": [
+      "Setores"
     ]
   },
   {
@@ -506,6 +563,9 @@
         "MediaTypes": [],
         "StatusCode": 200
       }
+    ],
+    "Tags": [
+      "Setores"
     ]
   },
   {
@@ -533,6 +593,9 @@
         "MediaTypes": [],
         "StatusCode": 200
       }
+    ],
+    "Tags": [
+      "Setores"
     ]
   },
   {
@@ -555,6 +618,9 @@
         "MediaTypes": [],
         "StatusCode": 200
       }
+    ],
+    "Tags": [
+      "Setores"
     ]
   }
 ]

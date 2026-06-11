@@ -15,7 +15,7 @@ namespace APIP2Minardi.Endpoints
     {
         public static void RegistrarEndpointsPrescricoesGerais(this IEndpointRouteBuilder rotas)
         {
-            RouteGroupBuilder rotaPrescricaoGeral = rotas.MapGroup("/prescricoes-gerais");
+            RouteGroupBuilder rotaPrescricaoGeral = rotas.MapGroup("/prescricoes-gerais").WithTags("Precrições Gerais");
 
             rotaPrescricaoGeral.MapGet("/", (AppDbContext dbContext) =>
             {
